@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
+import 'data.dart';
 import 'home.dart';
 
 void main() {
+  Data.read();
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     title: 'Minimal To Do',

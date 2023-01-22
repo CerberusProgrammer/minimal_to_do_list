@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:minimal_to_do_list/data.dart';
 
 import 'task.dart';
 import 'tasks.dart';
@@ -88,6 +89,7 @@ class _Pending extends State<Pending> {
                           title.clear();
                           content.clear();
                           Navigator.pop(context);
+                          Data.save();
                         },
                         child: const Text('Add')),
                   ],

@@ -1,8 +1,9 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:minimal_to_do_list/completed.dart';
 import 'package:minimal_to_do_list/pending.dart';
 import 'package:minimal_to_do_list/priority.dart';
+
+import 'data.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
